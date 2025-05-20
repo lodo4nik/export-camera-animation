@@ -1,3 +1,13 @@
+bl_info = {
+    "name": "Export Camera Animation",
+    "author": "Dmitry Romashin",
+    "version": (1, 0, 0),
+    "blender": (4, 4, 0),
+    "location": "File > Export > Camera Animation (.json)",
+    "description": "Export active camera animation (location, rotation, FOV) to JSON",
+    "category": "Import-Export",
+}
+
 import bpy
 import json
 import os
